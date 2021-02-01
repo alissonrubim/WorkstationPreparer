@@ -5,11 +5,39 @@
       "ModifierKey": "Alt",
       "Actions": [
         {
+          "Title": "Open Twitch Dashboard",
+          "File": "explorer.exe",
+          "Arguments": "https://dashboard.twitch.tv/u/piggroll/stream-manager"
+        },
+        {
+          "Title": "Open ReStream Dashboard",
+          "File": "explorer.exe",
+          "Arguments": "https://restream.io/channel"
+        },
+        {
+          "Title": "Open ReStream Chat",
+          "File": "explorer.exe",
+          "Arguments": "https://chat.restream.io/chat"
+        },
+        {
+          "Title": "Open AudioLibrary Playlist",
+          "File": "explorer.exe",
+          "Arguments": "https://www.youtube.com/watch?v=vYp14UesizY&list=PLzCxunOM5WFIVeCUZ7bFCW7wwA_JBHsDC"
+        },
+        {
           "Title": "Open OBS",
-          "File": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
-          "Arguments": "/new-window https://dashboard.twitch.tv/u/piggroll/stream-manager"
+          "File": "cmd.exe",
+          "Arguments": "start chrome /new-window www.google.com --collection [scene collection name], --profile [profile name],"
+        },
+        {
+          "Title": "Open StreamCountDown",
+          "File": "explorer.exe",
+          "Arguments": ""
+        },
+        {
+          "Title": "Open PS3Eye",
+          "File": "explorer.exe",
+          "Arguments": ""
         }
       ]
     }
-  ]
-}
