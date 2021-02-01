@@ -1,0 +1,15 @@
+{
+  "Presets": [
+    {
+      "HotKey": "F10",
+      "ModifierKey": "Alt",
+      "Actions": [
+        {
+          "Title": "Open OBS",
+          "File": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+          "Arguments": "/new-window https://dashboard.twitch.tv/u/piggroll/stream-manager"
+        }
+      ]
+    }
+  ]
+}
